@@ -119,10 +119,10 @@ System.out.println("max="+f);
         System.out.println("00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000");
         int[] yui={1,2,3,3,4,4,5,7,7,8};
         for (int i=0;i<yui.length;i++){
-            for (int j6=yui.length-1;j6<0; j6--){
-                yui[i]=yui[j6];
-                System.out.println(yui[j6]);
-
+            for (int j6=i+1;j6<yui.length;j6++){
+               if(yui[i]==yui[j6]) {
+                   System.out.println(yui[j6]);
+               }
             }
 
 
