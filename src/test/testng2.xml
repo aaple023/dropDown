@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebApplication Department">
+    <test name="Test all">
+
+        <classes>
+            <class name="FramTestng.Testng1"/>
+            <class name="FramTestng.Demo">
+                <methods>
+                    <include name="demo.*"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="executed test">
+        <classes>
+            <class name="FramTestng.Number_1">
+                <methods>
+                    <exclude name="num.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

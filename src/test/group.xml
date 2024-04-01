@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WebApplication Department">
+
+    <test name="smoke Testing">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="FramTestng.Number_1"/>
+            <class name="FramTestng.Demo"/>
+            <class name="FramTestng.Testng1"/>
+            <class name="FramTestng.Jan"/>
+
+
+        </classes>
+    </test>
+
+</suite>

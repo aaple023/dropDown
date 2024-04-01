@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ewebsite Pepartment">
+    <test name="build validatiom">
+        <classes>
+            <class name="FramTestng.Testng1"/>
+
+
+            <class name="FramTestng.Demo">
+                <methods>
+                    <exclude name="demo_4"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+
+    <test name="function validation">
+        <classes>
+            <class name="FramTestng.Number_1">
+                <methods>
+                    <include name="num3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
